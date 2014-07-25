@@ -33,8 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # of matrix (z$get()) from the "special" matrix which is the function argument here.
 # The function checks if a value of the inverse is cached or not, 
 # to save a second computation loop.
-# The function makes use of functions from list of "special" matrix 'z' ,
-# except the function set().
+# The function makes use of functions from list of "special" matrix 'z'.
 # Be aware, there is no suitability test for a matrix its invertibly,
 # So apply it to a square matrix with non-zero determinant.
 
